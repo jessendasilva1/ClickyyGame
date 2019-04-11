@@ -1,0 +1,15 @@
+#footer1{
+    background-color: rgb(56, 56, 56);
+    height: 50px;
+}
+#footer2{
+    background-color: black;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#githubLogo{
+    margin-right: 15px;
+}
