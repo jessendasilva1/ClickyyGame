@@ -75,6 +75,9 @@ class Main extends Component {
             this.props.reset();
             this.props.message("Incorrect, Sorry!");
             setTimeout(() => {
+                this.setState({
+                    previousChoices: []
+                })
                 this.shuffle(this.state.images);
             }, 400)
             console.log("duplicate click");
