@@ -15,7 +15,7 @@ class Image extends Component {
         //console.log(this.props.src);
         return (
             <div className={this.props.incorrect ? "images wiggle" : "images"} onClick={() => this.props.check(this.props.src)}>
-                <img className="imageLink" src={this.props.src} alt="terstingg" />
+                <img className="imageLink" src={this.props.src} alt="testing" />
             </div>
         );
     }

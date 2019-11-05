@@ -1,4 +1,7 @@
 .images{
+    display: flex;
+    height: auto;
+    width: 220px;
     background-color: lightgrey;
     padding: 10px;
     margin: 10px;
@@ -8,9 +11,25 @@
     transform: scale(1.05);
 }
 .imageLink{
-    height: 200px;
     width: 200px;
 }
+
+@media screen and (max-width: 750px) {
+    .imageLink{
+        width: 100px;
+    }
+
+    .images{
+        display: flex;
+        height: auto;
+        width: 120px;
+        background-color: lightgrey;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 8%;
+    }
+}
+
 .wiggle{
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s; 
