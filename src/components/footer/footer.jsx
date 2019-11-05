@@ -13,7 +13,7 @@ class Navbar extends Component {
                         Clicky Game: Made with React
                     </div>
                     <div>
-                        <a href="https://github.com/jessendasilva1/clickyGame/tree/master/clickgame" target="blank">
+                        <a href="https://github.com/jessendasilva1/clickyGame/" target="blank">
                             <img id="githubLogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="40px" width="40px" alt="github logo"/>
                         </a>
                     </div>
